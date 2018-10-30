@@ -1,8 +1,8 @@
 {
     "name": "qypangu/wechat",
     "description": "微信sdk",
-    "type": "framework",
-    "keywords": ["sdk","thinkphp","ORM"],
+    "type": "sdk",
+    "keywords": ["sdk","wechat","ORM"],
     "homepage": "http://www.qypangu.com/",
     "license": "Apache2",
     "authors": [
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.6.0"
     },
     "minimum-stability": "dev"
 }
