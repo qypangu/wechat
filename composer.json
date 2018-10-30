@@ -2,7 +2,7 @@
     "name": "qypangu/wechat",
     "description": "微信sdk",
     "type": "sdk",
-    "keywords": ["sdk","wechat","ORM"],
+    "keywords": ["sdk","wechat","alipay","IM","weixin","thinkphp"],
     "homepage": "http://www.qypangu.com/",
     "license": "MIT",
     "authors": [
