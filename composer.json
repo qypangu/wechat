@@ -1,5 +1,5 @@
 {
-    "name": "pangu/wechat",
+    "name": "qypangu/wechat",
     "description": "微信sdk",
     "type": "framework",
     "keywords": ["sdk","thinkphp","ORM"],
