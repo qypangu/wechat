@@ -4,7 +4,7 @@
     "type": "sdk",
     "keywords": ["sdk","wechat","ORM"],
     "homepage": "http://www.qypangu.com/",
-    "license": "Apache2",
+    "license": "MIT",
     "authors": [
         {
             "name": "huang jian wen",
