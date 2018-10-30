@@ -1,4 +1,18 @@
 {
     "name": "pangu/wechat",
-    "require": {}
+    "description": "微信sdk",
+    "type": "framework",
+    "keywords": ["sdk","thinkphp","ORM"],
+    "homepage": "http://www.qypangu.com/",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "huangjianwen",
+            "email": "hjwtp2005@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev"
 }
