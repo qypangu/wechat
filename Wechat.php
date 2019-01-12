@@ -41,7 +41,7 @@
  *  		);
  *   $result = $weObj->createMenu($newmenu);
  */
-namespace qypangu\weixin;
+namespace think\weixin;
 class Wechat
 {
 	const MSGTYPE_TEXT = 'text';
@@ -1178,7 +1178,7 @@ class Wechat
 	 * @return boolean
 	 */
 	protected function setCache($cachename,$value,$expired){
-	    return S($cachename,$value,$expired);
+	    return cache($cachename,$value,$expired);
 	}
 
 	/**
@@ -1187,7 +1187,7 @@ class Wechat
 	 * @return mixed
 	 */
 	protected function getCache($cachename){
-	    return S($cachename);
+	    return cache($cachename);
 	}
 
 	/**
@@ -1196,7 +1196,7 @@ class Wechat
 	 * @return boolean
 	 */
 	protected function removeCache($cachename){
-	    return S($cachename,null);
+	    return cache($cachename,null);
 	}
 
 	/**
